@@ -3,7 +3,7 @@ var svg = d3.select("#chart-area")
     .attr("width", 400)
     .attr("height", 400);
 var data = [25, 20, 15, 10, 5];
-var colours = ["black", "red", "green", "blue", "yellow", ]
+var colours = ["black", "red", "green", "blue", "yellow"]
 var rect = svg.selectAll("rect").data(data);
 rect.enter()
     .append("rect")
